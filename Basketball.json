@@ -1,0 +1,50 @@
+[
+  {
+    "X":-9.077736823020551,
+    "Y":53.27609987826149,
+    "OBJECTID":1,
+    "BCOURTLOCN":"Westside Sports Ground",
+    "Lat":53.276,
+    "Long":-9.078,
+    "EastITM":528080.679,
+    "NorthITM":725654.603,
+    "EastIG":128114.388,
+    "NorthIG":225625.506
+  },
+  {
+    "X":-8.983496689629549,
+    "Y":53.284175732847345,
+    "OBJECTID":2,
+    "BCOURTLOCN":"Doughiska Park, Doughiska Rd.",
+    "Lat":53.284,
+    "Long":-8.984,
+    "EastITM":534377.371,
+    "NorthITM":726462.415,
+    "EastIG":134412.437,
+    "NorthIG":226433.528
+  },
+  {
+    "X":-8.968401836111061,
+    "Y":53.275137590442505,
+    "OBJECTID":3,
+    "BCOURTLOCN":"Roscam Park, Roscam",
+    "Lat":53.275,
+    "Long":-8.969,
+    "EastITM":535370.147,
+    "NorthITM":725443.143,
+    "EastIG":135405.43,
+    "NorthIG":225414.044
+  },
+  {
+    "X":-9.0668384530004,
+    "Y":53.273557547792,
+    "OBJECTID":4,
+    "BCOURTLOCN":"Sliding Rock, Shantalla",
+    "Lat":53.274,
+    "Long":-9.067,
+    "EastITM":528803.203,
+    "NorthITM":725360.856,
+    "EastIG":128837.069,
+    "NorthIG":225331.7
+  }
+]

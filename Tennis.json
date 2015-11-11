@@ -1,0 +1,62 @@
+[
+  {
+    "X":-9.047858919161463,
+    "Y":53.293817364909,
+    "OBJECTID":1,
+    "TCOURTLOCN":"Crestwood, Ballinfoyle",
+    "Lat":53.293817,
+    "Long":-9.04786,
+    "EastITM":530141.785686,
+    "NorthITM":727569.417144,
+    "EastIG":130175.933245,
+    "NorthIG":227540.743063
+  },
+  {
+    "X":-9.112104050770085,
+    "Y":53.26298136876703,
+    "OBJECTID":2,
+    "TCOURTLOCN":"McGraths field, Shangort Rd.",
+    "Lat":53.262981,
+    "Long":-9.112105,
+    "EastITM":525805.49442,
+    "NorthITM":724203.1632,
+    "EastIG":125838.716857,
+    "NorthIG":224173.740844
+  },
+  {
+    "X":-9.078127993983678,
+    "Y":53.27598037081983,
+    "OBJECTID":3,
+    "TCOURTLOCN":"Westside Sports Ground",
+    "Lat":53.27598,
+    "Long":-9.078129,
+    "EastITM":528093.953805,
+    "NorthITM":725614.783135,
+    "EastIG":128127.665587,
+    "NorthIG":225585.677502
+  },
+  {
+    "X":-8.984258929381827,
+    "Y":53.28452339571177,
+    "OBJECTID":4,
+    "TCOURTLOCN":"Doughiska Park, Doughiska Rd.",
+    "Lat":53.284523,
+    "Long":-8.98426,
+    "EastITM":534367.473918,
+    "NorthITM":726475.015258,
+    "EastIG":134402.537319,
+    "NorthIG":226446.131587
+  },
+  {
+    "X":-8.969383955047622,
+    "Y":53.27531340861638,
+    "OBJECTID":5,
+    "TCOURTLOCN":"Roscam Park, Roscam",
+    "Lat":53.275313,
+    "Long":-8.969385,
+    "EastITM":535345.444166,
+    "NorthITM":725436.689697,
+    "EastIG":135380.722214,
+    "NorthIG":225407.589036
+  }
+]
