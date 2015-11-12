@@ -143,3 +143,24 @@ http://galwayCourts.com/Basketball/delete
 | :----|--------------- |
 
 ---
+
+This API could be expanded to football, badminton and other facilities. as of right now there not much more I could add to these datasets and this API besides more GET methods like http://galwayCourts.com/Tennis/Lat=53.262981+Long=-9.112105
+
+```javascript
+{
+    "X":-9.112104050770085,
+    "Y":53.26298136876703,
+    "OBJECTID":2,
+    "TCOURTLOCN":"McGraths field, Shangort Rd.",
+    "Lat":53.262981,
+    "Long":-9.112105,
+    "EastITM":525805.49442,
+    "NorthITM":724203.1632,
+    "EastIG":125838.716857,
+    "NorthIG":224173.740844
+  },
+  ```
+  
+  ---
+  
+  *I look forward to learning more about APIs in the future and possibly making one/using some with my own applications.*
