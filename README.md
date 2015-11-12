@@ -1,5 +1,6 @@
-# Data-rep-project
-#### Name: Conor Tighe.
+#  DATA REPRESENTATION AND QUERYING PROJECT
+### Name: Conor Tighe.
+### GMIT ID: G00314417
 
 ## Overview:
 
