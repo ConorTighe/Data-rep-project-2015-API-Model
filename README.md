@@ -57,3 +57,89 @@ The data that my API will provide will be based around Galway City facility's th
 ## Audience:
 
 My API will target a young audiance. Since Galway City is famous for being largely populated by students this API would reach out to the ones who want to exercise, pass time and save money. This data could also branch off into children, familys, athletes etc.
+
+---
+
+## HTTP Methods:
+
+There are a number of methods available in HTTP to manipulate a dataset. I will be covering the ones relivent to my API below.
+
+
+| GET | Retrieve filtered data |
+| :---|----------------------- |
+
+The following URL will search for a tennis court by ID: http://galwayCourts.com/Tennis/id=1
+
+#### Result:
+
+```javascript
+ {
+    "X":-9.047858919161463,
+    "Y":53.293817364909,
+    "OBJECTID":1,
+    "TCOURTLOCN":"Crestwood, Ballinfoyle",
+    "Lat":53.293817,
+    "Long":-9.04786,
+    "EastITM":530141.785686,
+    "NorthITM":727569.417144,
+    "EastIG":130175.933245,
+    "NorthIG":227540.743063
+  },
+```
+
+The datasets can be combined to search for locations with both courts: http://galwayCourts.com/Tennis+Basketball/TCOURTLOCN+BCOURTLOCN="Westside+Sports+Ground"
+
+#### Result:
+
+```javascript
+ {
+    "X":-9.078127993983678,
+    "Y":53.27598037081983,
+    "OBJECTID":3,
+    "TCOURTLOCN":"Westside Sports Ground",
+    "Lat":53.27598,
+    "Long":-9.078129,
+    "EastITM":528093.953805,
+    "NorthITM":725614.783135,
+    "EastIG":128127.665587,
+    "NorthIG":225585.677502
+  },
+  
+   {
+    "X":-9.077736823020551,
+    "Y":53.27609987826149,
+    "OBJECTID":1,
+    "BCOURTLOCN":"Westside Sports Ground",
+    "Lat":53.276,
+    "Long":-9.078,
+    "EastITM":528080.679,
+    "NorthITM":725654.603,
+    "EastIG":128114.388,
+    "NorthIG":225625.506
+  },
+```
+
+| POST | Send details |
+| :----|---------- |
+
+The edition of an admin to oversee the datasets could be implemented using POST, the admin could login with this URL:
+http://galwayCourts.com/login
+
+```javascript
+ {
+    "Username": admin,
+    "Password": myPassword
+  },
+```
+
+The admin could add or remove items from the dataset if a court was opened or closed using the methods and URLs below:
+http://galwayCourts.com/Tennis/new
+http://galwayCourts.com/Basketball/delete
+
+| POST | Add new court |
+| :----|-------------- |
+
+| DELETE | Remove court |
+| :----|--------------- |
+
+---
