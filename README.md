@@ -69,6 +69,8 @@ There are a number of methods available in HTTP to manipulate a dataset. I will 
 | GET | Retrieve filtered data |
 | :---|----------------------- |
 
+You could get the whole dataset with http://galwayCourts.com/Basketball/all
+
 The following URL will search for a tennis court by ID: http://galwayCourts.com/Tennis/id=1
 
 #### Result:
