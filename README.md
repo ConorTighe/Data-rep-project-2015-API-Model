@@ -11,7 +11,7 @@ In this respiratory I will be describing how I would design an API, the concepts
 
 ## Protocol:
 
-The protocol used is HTTP, otherwise known as The Hypertext Transfer Protocol. This is the basses for all world wide web communication and how servers and clients interact. When the URL in entered into the browser, a command is sent to a web server to find the requested web page and then return it.
+The protocol used is HTTP, otherwise known as The Hypertext Transfer Protocol. This is the bases for all world wide web communication and how servers and clients interact. When the URL is entered into the browser, a command is sent to a web server to find the requested web page and then return it.
 
 ---
 
